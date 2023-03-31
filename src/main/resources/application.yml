@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     password: ${MYSQL_USER:root}
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/sys
+    url: jdbc:mysql://${MYSQL_HOST:54.209.135.169}:${MYSQL_PORT:3306}/sys
     username: ${MYSQL_USER:root}
   jpa:
     hibernate:
