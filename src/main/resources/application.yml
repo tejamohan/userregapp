@@ -2,6 +2,7 @@ server:
   port: 4545
 spring:
   datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
     password: ${MYSQL_USER:root}
     url: jdbc:mysql://${MYSQL_HOST:54.209.135.169}:${MYSQL_PORT:3306}/sys
     username: ${MYSQL_USER:root}
