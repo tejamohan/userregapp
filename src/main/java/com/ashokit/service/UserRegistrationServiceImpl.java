@@ -215,6 +215,10 @@ public class UserRegistrationServiceImpl implements UserRegistrationService{
 		
 		return generator.generatePassword(8, rules);
 	}
+
+	public String getMessage(){
+		return "WelCome to Git hub";
+	}
 	
 	public String getBody(String fullname,String tempPwd)  {
 		String filename=UserRegConstants.FILENAME;
@@ -246,6 +250,9 @@ public class UserRegistrationServiceImpl implements UserRegistrationService{
 		
 		return mailBody;
 		
+	}
+
+	
 	}
 	
 	}
